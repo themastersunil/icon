@@ -1,6 +1,10 @@
 <svg width="400" height="180" xmlns="http://www.w3.org/2000/svg">
+  <script type="text/javascript">
+    <![CDATA[
+      // JavaScript code to show an alert
+      alert('This is an alert from an SVG file!');
+    ]]>
+  </script>
   <rect x="0" y="0" width="400" height="180" fill="#f3f3f3" />
-  <a href="https://www.example.com" target="_blank">
-    <text x="20" y="40" font-family="Verdana" font-size="24" fill="black">Click here to go to example.com</text>
-  </a>
+  <text x="20" y="40" font-family="Verdana" font-size="24" fill="black">Alert Test</text>
 </svg>
