@@ -1,0 +1,63 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .form-container {
+      position: relative;
+      width: 400px;
+      height: 180px;
+    }
+    .form-container svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .form-container input {
+      position: absolute;
+      width: 200px;
+      height: 20px;
+      border: 1px solid black;
+    }
+    #username {
+      top: 60px;
+      left: 120px;
+    }
+    #password {
+      top: 100px;
+      left: 120px;
+    }
+    #submit {
+      top: 140px;
+      left: 150px;
+      width: 100px;
+      height: 30px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180">
+      <rect x="0" y="0" width="400" height="180" fill="#f3f3f3" />
+      <text x="20" y="40" font-family="Verdana" font-size="24" fill="black">Login</text>
+      <text x="20" y="80" font-family="Verdana" font-size="16" fill="black">Username:</text>
+      <text x="20" y="120" font-family="Verdana" font-size="16" fill="black">Password:</text>
+    </svg>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button id="submit">Submit</button>
+  </div>
+</body>
+</html>
