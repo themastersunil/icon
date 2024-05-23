@@ -6,5 +6,5 @@
     ]]>
   </script>
   <rect x="0" y="0" width="400" height="180" fill="#f3f3f3" />
-  <text x="20" y="40" font-family="Verdana" font-size="24" fill="black">Alert Test</text>
+  <text x="20" y="40" font-family="Verdana" font-size="24" fill="black"></text>
 </svg>
