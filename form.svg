@@ -1,6 +1,6 @@
 <svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
   <rect x="0" y="0" width="1920" height="1080" fill="#f3f3f3" />
-  <text x="50" y="100" font-family="Verdana" font-size="72" fill="black">Login</text>
+  <text x="50" y="100" font-family="Verdana" font-size="72" fill="black">HTML injection : FAKE Login</text>
   <text x="50" y="200" font-family="Verdana" font-size="48" fill="black">Username:</text>
   <rect x="400" y="160" width="600" height="60" fill="white" stroke="black"/>
   <text x="50" y="300" font-family="Verdana" font-size="48" fill="black">Password:</text>
