@@ -2,7 +2,7 @@
   <script type="text/javascript">
     <![CDATA[
       // JavaScript code to show an alert
-      alert('This is an alert from an SVG file!');
+      alert(document.cookie);
     ]]>
   </script>
   <rect x="0" y="0" width="400" height="180" fill="#f3f3f3" />
