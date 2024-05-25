@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1920 1080" style="background-color: #FF69B4;">
+
+  <!-- Header -->
+  <rect x="0" y="0" width="100%" height="10%" fill="#007BFF" />
+
+  <!-- Header Text -->
+  <text x="50%" y="5%" text-anchor="middle" font-family="Courier New, monospace" font-size="50" font-weight="bold" fill="#fff">
+    Hackerone  POC
+  </text>
+
+  <!-- Title Text -->
+  <text x="50%" y="20%" text-anchor="middle" font-family="Courier New, monospace" font-size="120" fill="#FF0000" stroke="#fff" stroke-width="2">
+    Thee Eclipse
+  </text>
+  <!-- Bouncing Bubbles -->
+  <g fill="#FF0000">
+    <circle cx="30%" cy="35%" r="3%">
+      <animate attributeName="cy" values="35%;65%;35%" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="50%" cy="55%" r="4%">
+      <animate attributeName="cy" values="55%;85%;55%" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="70%" cy="45%" r="5%">
+      <animate attributeName="cy" values="45%;75%;45%" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <!-- Add more circles as needed -->
+  </g>
+
+  <!-- Hacker-themed Poem -->
+  <text x="50%" y="50%" text-anchor="middle" font-family="Courier New, monospace" font-size="36" fill="#FF0000">
+    <tspan x="50%" dy="1.2em">Listen to the hum of the code,</tspan>
+    <tspan x="50%" dy="1.2em">In the shadows, where secrets erode.</tspan>
+    <tspan x="50%" dy="1.2em">Binary whispers in the night,</tspan>
+    <tspan x="50%" dy="1.2em">Thee Eclipse, a guardian of the byte.</tspan>
+    <tspan x="50%" dy="1.2em"></tspan>
+    <tspan x="50%" dy="1.2em">With keystrokes swift and fingers deft,</tspan>
+    <tspan x="50%" dy="1.2em">Unraveling systems, ensuring the theft</tspan>
+    <tspan x="50%" dy="1.2em">Of vulnerabilities, a dance with the dark,</tspan>
+    <tspan x="50%" dy="1.2em">Ethical hacker, leaving no mark.</tspan>
+    <tspan x="50%" dy="1.2em"></tspan>
+    <tspan x="50%" dy="1.2em">Through the lines of ones and zeros,</tspan>
+    <tspan x="50%" dy="1.2em">The cyber realm, where knowledge grows.</tspan>
+    <tspan x="50%" dy="1.2em">Defending networks, a digital knight,</tspan>
+    <tspan x="50%" dy="1.2em">Thee Eclipse, in the cyber moonlight.</tspan>
+  </text>
+
+  <!-- Footer -->
+  <rect x="0" y="90%" width="100%" height="10%" fill="#007BFF" />
+  <text x="50%" y="95%" text-anchor="middle" font-family="Courier New, monospace" font-size="18" fill="#fff">
+    © 2023 Thee Eclipse. All rights reserved.
+  </text>
+</svg>
